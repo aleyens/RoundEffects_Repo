@@ -1,5 +1,3 @@
-readme
-
 This repository contains the replication package for the paper "Round effects in economic experiments - A novel probabilistic programming approach to round-dependent response behaviour" by Alexa Leyens, Philipp Feisthauer, Jan Börner, Monika Hartmann and Hugo Storm.
 
 The main data file used for modeling is accessible online via https://phenoroam.phenorob.de/geonetwork/srv/eng/catalog.search#/metadata/979019ef-037a-4716-9c40-dfa0125f16f4 and can be used without prior downloading when running the model code provided in this repository. 
