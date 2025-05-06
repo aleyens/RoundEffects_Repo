@@ -9,7 +9,7 @@
 	// Update the 'dockerFile' property if you aren't using the standard 'Dockerfile' filename.
 	"dockerFile": "../Dockerfile",
 
-	"runArgs": [ "--gpus=all", "-it", "--rm"],
+	//"runArgs": [ "--gpus=all", "-it", "--rm"],
 	// "runArgs": [ "--network=host" ],
 	"extensions": ["ms-python.python","njpwerner.autodocstring","ms-toolsai.jupyter",
 		"kevinrose.vsc-python-indent",
