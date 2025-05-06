@@ -10,8 +10,7 @@ Then, to replicate the analyses and figures in the paper, follow these steps:
 2. Open the cloned repository in VS-Code, choose 're-open in container'. 
 3. Rebuild docker image locally by running: docker build 
 4. Start the container from this image: docker run 
-
-Once the container is running, you can attach a shell and run the code provided in the 'model_roundeffects_PartialPooling.py'-file.
+5. Once the container is running, choose a python 3.10.12 interpretor to run the code in the 'model_roundeffects_PartialPooling.py'-file interactively.
 
 The Python requirements are listed in requirements.txt and can be manually installed if the replicator does not want to use the docker container. 
 
