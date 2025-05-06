@@ -25,7 +25,6 @@ warnings.formatwarning = lambda message, category, *args, **kwargs: "{}: {}\n".f
 )
 az.style.use("arviz-darkgrid")
 numpyro.set_platform("cpu")
-numpyro.set_host_device_count(4)
 
 #%% ------------------------------------------------ 
 # Load the Dataframe and get some first impressions 
