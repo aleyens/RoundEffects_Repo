@@ -12,5 +12,5 @@ Then, to replicate the analyses and figures in the paper, follow these steps:
 
 Once the container is running, you can attach a shell and run the code provided in the 'model...'-file.
 
-Software requirements are listed in the Dockerfile. Python requirements are listed in requirements.txt and can be manually installed if the replicator does not want to use the docker container. 
+The Python requirements are listed in requirements.txt and can be manually installed if the replicator does not want to use the docker container. 
 
