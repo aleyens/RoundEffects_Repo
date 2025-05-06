@@ -6,11 +6,12 @@ In order to replicate the figures and analyses conducted in the paper, several s
 For setting up a docker installation on your machine, follow the steps described in: https://docs.docker.com/get-started/introduction/get-docker-desktop/
 
 Then, to replicate the analyses and figures in the paper, follow these steps:
-1. Pull the repository from GitHub: git clone https://github.com/aleyens/RoundEffects_Repo 
-2. Rebuild docker image locally by running: docker build 
-3. Start the container from this image: docker run 
+1. Pull the repository from GitHub: git clone https://github.com/aleyens/RoundEffects_Repo  
+2. Open the cloned repository in VS-Code, choose 're-open in container'. 
+3. Rebuild docker image locally by running: docker build 
+4. Start the container from this image: docker run 
 
-Once the container is running, you can attach a shell and run the code provided in the 'model...'-file.
+Once the container is running, you can attach a shell and run the code provided in the 'model_roundeffects_PartialPooling.py'-file.
 
 The Python requirements are listed in requirements.txt and can be manually installed if the replicator does not want to use the docker container. 
 
